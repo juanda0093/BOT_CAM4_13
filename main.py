@@ -1,7 +1,5 @@
 import logging, metodo
 
-import os
-
 from telegram.ext import (
     Updater,
     CommandHandler,
@@ -9,9 +7,6 @@ from telegram.ext import (
     MessageHandler,
     Filters,
 )
-
-TOKEN1 = os.getenv("TOKEN1")
-TOKEN2 = os.getenv("TOKEN2")
 
 meto = metodo.Metodos()
 optio = 0
